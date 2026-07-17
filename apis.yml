@@ -1,0 +1,76 @@
+aid: dcvc
+name: DCVC (Data Collective)
+description: >-
+  DCVC (Data Collective) is a deep-tech venture capital firm founded in 2011 and headquartered in
+  Palo Alto and San Francisco, California. Founded and led by managing partners Matt Ocko and Zachary
+  Bogue, DCVC backs entrepreneurs using computational and AI-driven approaches to solve trillion-dollar
+  problems in the real world across sectors that have often seen little material progress in decades.
+  The firm invests from early through growth stages across AI, compute and quantum, computational
+  biology and chemistry, cybersecurity and defense, energy and climate, finance and insurance,
+  industrial transformation and advanced manufacturing, next-gen agriculture, space, TechBio and
+  TechMed. Across 13+ funds DCVC manages roughly $4B in assets under management (self-reported / press),
+  making it one of the larger dedicated deep-tech franchises. Notable portfolio outcomes include
+  companies spanning fusion energy, carbon transformation, robotics, drug discovery, and data
+  infrastructure.
+x-type: venture-capital
+x-category: Venture Capital
+tags:
+  - Venture Capital
+  - Deep Tech
+  - Early Stage
+  - Growth Stage
+  - Artificial Intelligence
+  - Climate
+  - Computational Biology
+  - Space
+  - North America
+image: https://www.dcvc.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.dcvc.com/
+  - type: Portfolio
+    url: https://www.dcvc.com/companies
+  - type: Portfolio
+    url: portfolio/dcvc-portfolio.yml
+  - type: Team
+    url: https://www.dcvc.com/team
+  - type: Team
+    url: team/dcvc-team.yml
+  - type: InvestmentThesis
+    url: https://www.dcvc.com/about
+  - type: News
+    url: https://www.dcvc.com/news-insights
+  - type: Jobs
+    url: https://www.dcvc.com/careers
+  - type: Twitter
+    url: https://twitter.com/dcvc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/data-collective/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/data-collective
+  - type: Features
+    data:
+      - 'Stage: Early to growth stage'
+      - 'Sectors: AI, compute & quantum, computational bio & chemistry, cybersecurity & defense, energy & climate, finance & insurance, industrial & advanced manufacturing, agriculture, space, TechBio, TechMed'
+      - 'Geography: North America (primary)'
+      - 'AUM: ~$4B (self-reported / press)'
+      - 'Funds: 13+ to date'
+      - 'Founded: 2011'
+      - 'HQ: Palo Alto and San Francisco, CA'
+      - 'Managing partners: Matt Ocko, Zachary Bogue'
+    sources:
+      - https://www.dcvc.com/about
+      - https://www.crunchbase.com/organization/data-collective
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: DCVC (Data Collective)
+    url: https://www.dcvc.com/
