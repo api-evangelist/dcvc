@@ -972,7 +972,7 @@ companies:
   source: https://www.dcvc.com/companies/metamarkets-group
   in_network: true
   is_api_provider: false
-  slug: metamarkets-group
+  slug: metamarkets
   matched_by: name-slug
 - name: Micrographia Bio
   source: https://www.dcvc.com/companies/micrographia-bio
@@ -1098,7 +1098,7 @@ companies:
   source: https://www.dcvc.com/companies/ntopology
   in_network: true
   is_api_provider: false
-  slug: ntopology
+  slug: ntop-com
   matched_by: name-slug
 - name: Nylas
   source: https://www.dcvc.com/companies/nylas
