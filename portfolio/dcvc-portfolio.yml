@@ -3,9 +3,9 @@ method: searched
 source: https://www.dcvc.com/companies
 summary:
   portfolio_total: 292
-  in_network: 280
-  api_providers: 36
-  missing: 12
+  in_network: 278
+  api_providers: 40
+  missing: 14
   stubs_created: 0
 companies:
 - name: Abcellera
@@ -13,7 +13,9 @@ companies:
   slug: abcellera
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.abcellera.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aclarity Water
   source: https://www.dcvc.com/companies/aclarity-water
   in_network: true
@@ -25,7 +27,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: aclima
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aclima.earth/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Advano
   source: https://www.dcvc.com/companies/advano
   in_network: true
@@ -44,18 +48,23 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://agilityrobotics.ai
 - name: Agzen
   source: https://www.dcvc.com/companies/agzen
   in_network: true
   is_api_provider: false
   slug: agzen
-  matched_by: name-slug
+  matched_by: domain
+  url: https://agzen.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ai Vivo
   source: https://www.dcvc.com/companies/ai-vivo
   in_network: true
   is_api_provider: false
   slug: ai-vivo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aivivo.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aim
   source: https://www.dcvc.com/companies/aim
   slug: aim
@@ -73,7 +82,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: akash-systems
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.akashsystems.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Akido Labs
   source: https://www.dcvc.com/companies/akido-labs
   in_network: true
@@ -85,49 +96,65 @@ companies:
   slug: alation
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.alation.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alchemab Therapeutics
   source: https://www.dcvc.com/companies/alchemab-therapeutics
   in_network: true
   is_api_provider: false
   slug: alchemab-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.alchemab.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alem Health
   source: https://www.dcvc.com/companies/alem-health
   in_network: true
   is_api_provider: false
   slug: alem-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://alemhealth.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alphageo
   source: https://www.dcvc.com/companies/alphageo
   in_network: true
   is_api_provider: false
   slug: alphageo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://alphageo.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alta Resource Technologies
   source: https://www.dcvc.com/companies/alta-resource-technologies
   in_network: true
   is_api_provider: false
   slug: alta-resource-technologies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.altatech.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Amogy
   source: https://www.dcvc.com/companies/amogy
   in_network: true
   is_api_provider: false
   slug: amogy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://amogy.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Amplitude
   source: https://www.dcvc.com/companies/amplitude
   slug: amplitude
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.amplitude.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Anjuna
   source: https://www.dcvc.com/companies/anjuna
   in_network: true
   is_api_provider: false
   slug: anjuna
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.anjuna.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Apcera
   source: https://www.dcvc.com/companies/apcera
   in_network: true
@@ -139,7 +166,9 @@ companies:
   slug: apollo
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.apollo.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aporeto
   source: https://www.dcvc.com/companies/aporeto
   in_network: true
@@ -157,7 +186,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: aquafortus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aquafortus.net/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Area 1 Security
   source: https://www.dcvc.com/companies/area-1-security
   in_network: true
@@ -175,13 +206,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: asimov
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.asimov.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Atom Computing
   source: https://www.dcvc.com/companies/atom-computing
   slug: atom-computing
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://atom-computing.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Atomic Alchemy
   source: https://www.dcvc.com/companies/atomic-alchemy
   in_network: true
@@ -200,42 +235,55 @@ companies:
   is_api_provider: false
   slug: auradine
   matched_by: name-slug
+  x-url-candidate: https://auradine.ai
 - name: Auransa
   source: https://www.dcvc.com/companies/auransa
   in_network: true
   is_api_provider: false
   slug: auransa
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.auransa.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Auron Therapeutics
   source: https://www.dcvc.com/companies/auron-therapeutics
   in_network: true
   is_api_provider: false
   slug: auron-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.aurontx.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Authy
   source: https://www.dcvc.com/companies/authy
   in_network: true
   is_api_provider: false
   slug: authy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.authy.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Avicenna Biosciences
   source: https://www.dcvc.com/companies/avicenna-biosciences
   in_network: true
   is_api_provider: false
   slug: avicenna-biosciences
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.avicenna-bio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Axelar
   source: https://www.dcvc.com/companies/axelar
   slug: axelar
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.axelar.network/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Axoni
   source: https://www.dcvc.com/companies/axoni
   in_network: true
   is_api_provider: false
   slug: axoni
-  matched_by: name-slug
+  matched_by: domain
+  url: https://axoni.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Biobot Analytics
   source: https://www.dcvc.com/companies/biobot-analytics
   in_network: false
@@ -258,19 +306,25 @@ companies:
   in_network: true
   is_api_provider: true
   slug: blackbird
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.blackbird.xyz/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Blockstream
   source: https://www.dcvc.com/companies/blockstream
   in_network: true
   is_api_provider: true
   slug: blockstream
-  matched_by: name-slug
+  matched_by: domain
+  url: https://blockstream.info
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Blue River Technology
   source: https://www.dcvc.com/companies/blue-river-technology
   in_network: true
   is_api_provider: false
   slug: blue-river-technology
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.bluerivertechnology.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bluedata Software Inc
   source: https://www.dcvc.com/companies/bluedata-software-inc
   in_network: true
@@ -289,42 +343,54 @@ companies:
   is_api_provider: false
   slug: brainspec
   matched_by: name-slug
+  x-url-candidate: https://brainspec.com
 - name: Breezebio
   source: https://www.dcvc.com/companies/breezebio
   in_network: true
   is_api_provider: false
   slug: breezebio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://breezebio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Brimstone
   source: https://www.dcvc.com/companies/brimstone
   in_network: true
   is_api_provider: false
   slug: brimstone
   matched_by: name-slug
+  x-url-candidate: https://www.brimstonerecreation.com/
 - name: Buoyant
   source: https://www.dcvc.com/companies/buoyant
   slug: buoyant
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.buoyant.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Burnbot
   source: https://www.dcvc.com/companies/burnbot
   in_network: true
   is_api_provider: false
   slug: burnbot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://burnbot.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: C16 Biosciences
   source: https://www.dcvc.com/companies/c16-biosciences
   in_network: true
   is_api_provider: false
   slug: c16-biosciences
-  matched_by: name-slug
+  matched_by: domain
+  url: https://c16bio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cape Analytics
   source: https://www.dcvc.com/companies/cape-analytics
   in_network: true
   is_api_provider: false
   slug: cape-analytics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://capeanalytics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Capella Space
   source: https://www.dcvc.com/companies/capella-space
   slug: capella-space
@@ -342,7 +408,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: carbon-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://carbonhealth.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cardspring
   source: https://www.dcvc.com/companies/cardspring
   in_network: true
@@ -354,19 +422,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: catalog
-  matched_by: name-slug
+  matched_by: domain
+  url: https://catalog.works/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cato Digital
   source: https://www.dcvc.com/companies/cato-digital
   in_network: true
   is_api_provider: false
   slug: cato-digital
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cato.digital
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cellanome
   source: https://www.dcvc.com/companies/cellanome
   in_network: true
   is_api_provider: false
   slug: cellanome
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cellanome.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ch4 Global
   source: https://www.dcvc.com/companies/ch4-global
   in_network: true
@@ -378,13 +452,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: chai-discovery
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.chaidiscovery.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Chainlink
   source: https://www.dcvc.com/companies/chainlink
   slug: chainlink
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dev.chain.link/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Chariot Defense
   source: https://www.dcvc.com/companies/chariot-defense
   in_network: true
@@ -396,43 +474,57 @@ companies:
   slug: checkr
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://checkr.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Chemify
   source: https://www.dcvc.com/companies/chemify
   in_network: true
   is_api_provider: false
   slug: chemify
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.chemify.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Circleci
   source: https://www.dcvc.com/companies/circleci
   slug: circleci
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://circleci.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Circularity Fuels
   source: https://www.dcvc.com/companies/circularity-fuels
   in_network: true
   is_api_provider: false
   slug: circularity-fuels
-  matched_by: name-slug
+  matched_by: domain
+  url: https://circularityfuels.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Citrine Informatics
   source: https://www.dcvc.com/companies/citrine-informatics
   in_network: true
   is_api_provider: false
   slug: citrine-informatics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://citrine.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Citus Data
   source: https://www.dcvc.com/companies/citus-data
   in_network: true
   is_api_provider: false
   slug: citus-data
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.citusdata.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cloudability
   source: https://www.dcvc.com/companies/cloudability
-  slug: cloudability
+  slug: apptio
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
+  url: https://www.apptio.com/products/cloudability/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cloudcoreo
   source: https://www.dcvc.com/companies/cloudcoreo
   in_network: true
@@ -450,19 +542,24 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cofactor-genomics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cofactorgenomics.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Compose
   source: https://www.dcvc.com/companies/compose
   in_network: true
   is_api_provider: false
   slug: compose
   matched_by: name-slug
+  x-url-candidate: https://www.compose.ai/
 - name: Confluent
   source: https://www.dcvc.com/companies/confluent
   slug: confluent
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.confluent.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Copia Global
   source: https://www.dcvc.com/companies/copia-global
   in_network: true
@@ -474,7 +571,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: creyon-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://creyon.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Culture Biosciences
   source: https://www.dcvc.com/companies/culture-biosciences
   in_network: true
@@ -486,114 +585,146 @@ companies:
   in_network: true
   is_api_provider: false
   slug: curative
-  matched_by: name-slug
+  matched_by: domain
+  url: https://curative.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Curious Ai
   source: https://www.dcvc.com/companies/curious-ai
   in_network: true
   is_api_provider: false
   slug: curious-ai
   matched_by: name-slug
+  x-url-candidate: https://curious.com
 - name: D2iq
   source: https://www.dcvc.com/companies/d2iq
   in_network: true
   is_api_provider: false
   slug: d2iq
   matched_by: name-slug
+  x-url-candidate: https://www.nutanix.com/d2iq
 - name: Databricks
   source: https://www.dcvc.com/companies/databricks
   slug: databricks
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.databricks.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Deepcell
   source: https://www.dcvc.com/companies/deepcell
   in_network: true
   is_api_provider: false
   slug: deepcell
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.deepcell.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Demox Labs
   source: https://www.dcvc.com/companies/demox-labs
   in_network: true
   is_api_provider: false
   slug: demox-labs
   matched_by: name-slug
+  x-url-candidate: https://demox.ai
 - name: Descartes Labs
   source: https://www.dcvc.com/companies/descartes-labs
   slug: descartes-labs
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://www.descartes.com/
 - name: Desktop Metal
   source: https://www.dcvc.com/companies/desktop-metal
   slug: desktop-metal
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.desktopmetal.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Dronedeploy
   source: https://www.dcvc.com/companies/dronedeploy
   slug: dronedeploy
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dronedeploy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Dvlp Medicines
   source: https://www.dcvc.com/companies/dvlp-medicines
   in_network: true
   is_api_provider: false
   slug: dvlp-medicines
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dvlpmedicines.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Earn
   source: https://www.dcvc.com/companies/earn
   in_network: true
-  is_api_provider: false
-  slug: earn
-  matched_by: name-slug
+  is_api_provider: true
+  slug: coinbase
+  matched_by: domain
+  url: https://www.coinbase.com/earn
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Earth Ai
   source: https://www.dcvc.com/companies/earth-ai
   in_network: true
   is_api_provider: false
   slug: earth-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://earth-ai.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Elastic
   source: https://www.dcvc.com/companies/elastic
   slug: elastic
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.elastic.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Electronx
   source: https://www.dcvc.com/companies/electronx
   in_network: true
   is_api_provider: false
   slug: electronx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.electronx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Element Ai
   source: https://www.dcvc.com/companies/element-ai
   in_network: true
   is_api_provider: false
   slug: element-ai
   matched_by: name-slug
+  x-url-candidate: https://www.element.com/
 - name: Elo Life
   source: https://www.dcvc.com/companies/elo-life
   in_network: true
   is_api_provider: false
   slug: elo-life
-  matched_by: name-slug
+  matched_by: domain
+  url: https://elolife.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Embark
   source: https://www.dcvc.com/companies/embark
   in_network: false
   is_api_provider: false
   suggested_slug: embark
+  x-url-candidate: https://embark.com
 - name: Empirico
   source: https://www.dcvc.com/companies/empirico
   in_network: true
   is_api_provider: false
   slug: empirico
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.empiri.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Enhanced Radar
   source: https://www.dcvc.com/companies/enhanced-radar
   in_network: true
   is_api_provider: false
   slug: enhanced-radar
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.enhancedradar.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Enlitic
   source: https://www.dcvc.com/companies/enlitic
   in_network: true
@@ -605,37 +736,48 @@ companies:
   in_network: true
   is_api_provider: false
   slug: enough
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.enough-food.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Entocycle
   source: https://www.dcvc.com/companies/entocycle
   in_network: true
   is_api_provider: false
   slug: entocycle
-  matched_by: name-slug
+  matched_by: domain
+  url: https://entocycle.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Enzyme
   source: https://www.dcvc.com/companies/enzyme
   in_network: true
   is_api_provider: false
   slug: enzyme
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.enzyme.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Epirus
   source: https://www.dcvc.com/companies/epirus
   slug: epirus
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.epirusinc.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Equilibrium Energy
   source: https://www.dcvc.com/companies/equilibrium-energy
   in_network: true
   is_api_provider: false
   slug: equilibrium-energy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.equilibriumenergy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Estes Energy
   source: https://www.dcvc.com/companies/estes-energy
   in_network: true
   is_api_provider: false
   slug: estes-energy
   matched_by: name-slug
+  x-url-candidate: https://estesenergy.com
 - name: Evolv Technology
   source: https://www.dcvc.com/companies/evolv-technology
   in_network: true
@@ -653,7 +795,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: fable-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fabletherapeutics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Factual
   source: https://www.dcvc.com/companies/factual
   in_network: true
@@ -671,19 +815,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: feedzai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.feedzai.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fervo Energy
   source: https://www.dcvc.com/companies/fervo-energy
   in_network: true
   is_api_provider: false
   slug: fervo-energy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fervoenergy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Firebase
   source: https://www.dcvc.com/companies/firebase
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: firebase
-  matched_by: name-slug
+  url: https://firebase.google.com
+  x-url-source: network-repo (title-verified 2026-10-18)
+  x-name-collision: firebase
+  suggested_slug: google-com
 - name: Fliptop
   source: https://www.dcvc.com/companies/fliptop
   in_network: true
@@ -695,25 +845,33 @@ companies:
   slug: flutterwave
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flutterwave.com/us/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fortem Technologies
   source: https://www.dcvc.com/companies/fortem-technologies
   in_network: true
   is_api_provider: false
   slug: fortem-technologies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fortemtech.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fourth Power
   source: https://www.dcvc.com/companies/fourth-power
   in_network: true
   is_api_provider: false
   slug: fourth-power
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gofourth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Freenome
   source: https://www.dcvc.com/companies/freenome
   in_network: true
   is_api_provider: false
   slug: freenome
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.freenome.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Freshplum
   source: https://www.dcvc.com/companies/freshplum
   in_network: true
@@ -725,19 +883,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: frontier-medicines
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.frontiermeds.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fulfil
   source: https://www.dcvc.com/companies/fulfil
   in_network: true
   is_api_provider: false
   slug: fulfil
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fulfil.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ginkgo Bioworks
   source: https://www.dcvc.com/companies/ginkgo-bioworks
   in_network: true
   is_api_provider: false
   slug: ginkgo-bioworks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ginkgo.bio/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gitprime
   source: https://www.dcvc.com/companies/gitprime
   in_network: true
@@ -749,13 +913,17 @@ companies:
   slug: gladly
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gladly.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Golden
   source: https://www.dcvc.com/companies/golden
   in_network: true
   is_api_provider: true
   slug: golden
-  matched_by: name-slug
+  matched_by: domain
+  url: https://golden.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gradle
   source: https://www.dcvc.com/companies/gradle
   in_network: true
@@ -767,37 +935,48 @@ companies:
   in_network: true
   is_api_provider: false
   slug: graphcore
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.graphcore.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Grove Biopharma
   source: https://www.dcvc.com/companies/grove-biopharma
   in_network: true
   is_api_provider: false
   slug: grove-biopharma
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.grovebiopharma.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gusto
   source: https://www.dcvc.com/companies/gusto
   slug: gusto
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gusto.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Halter
   source: https://www.dcvc.com/companies/halter
   in_network: true
   is_api_provider: false
   slug: halter
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.halterhq.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Haven
   source: https://www.dcvc.com/companies/haven
   in_network: true
   is_api_provider: false
   slug: haven
   matched_by: name-slug
+  x-url-candidate: https://www.haven.com/
 - name: Health Gorilla
   source: https://www.dcvc.com/companies/health-gorilla
   slug: health-gorilla
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.healthgorilla.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Healthmode
   source: https://www.dcvc.com/companies/healthmode
   in_network: true
@@ -809,19 +988,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: helix-nano
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.helixnano.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Helloverify
   source: https://www.dcvc.com/companies/helloverify
   in_network: true
   is_api_provider: false
   slug: helloverify
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.helloverify.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hifi
   source: https://www.dcvc.com/companies/hifi
   in_network: true
   is_api_provider: true
   slug: hifi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hifi.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Honeycomb Io
   source: https://www.dcvc.com/companies/honeycomb-io
   in_network: false
@@ -838,37 +1023,49 @@ companies:
   in_network: true
   is_api_provider: false
   slug: human-dx
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.humandx.org/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Human Security
   source: https://www.dcvc.com/companies/human-security
   slug: human-security
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.humansecurity.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Humans
   source: https://www.dcvc.com/companies/humans
   in_network: true
   is_api_provider: false
-  slug: humans
-  matched_by: name-slug
+  slug: humansand
+  matched_by: domain
+  url: https://humansand.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Iceberg Quantum
   source: https://www.dcvc.com/companies/iceberg-quantum
   in_network: true
   is_api_provider: false
   slug: iceberg-quantum
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.iceberg-quantum.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Illumio
   source: https://www.dcvc.com/companies/illumio
   in_network: true
   is_api_provider: false
   slug: illumio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.illumio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Impulse Space
   source: https://www.dcvc.com/companies/impulse-space
   in_network: true
   is_api_provider: false
   slug: impulse-space
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.impulsespace.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kairos Aerospace
   source: https://www.dcvc.com/companies/kairos-aerospace
   in_network: true
@@ -880,7 +1077,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jupiter-intelligence
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.jupiterintel.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kaggle
   source: https://www.dcvc.com/companies/kaggle
   slug: kaggle
@@ -892,25 +1091,33 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kanvas-biosciences
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kanvasbio.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Karius
   source: https://www.dcvc.com/companies/karius
   in_network: true
   is_api_provider: false
   slug: karius
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kariusdx.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kentik
   source: https://www.dcvc.com/companies/kentik
   in_network: true
   is_api_provider: true
   slug: kentik
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kentik.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kettle
   source: https://www.dcvc.com/companies/kettle
   in_network: true
   is_api_provider: false
   slug: kettle
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ourkettle.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kickpay
   source: https://www.dcvc.com/companies/kickpay
   in_network: true
@@ -923,35 +1130,45 @@ companies:
   is_api_provider: false
   slug: kindred-ai
   matched_by: name-slug
+  x-url-candidate: https://www.kindredhospitals.com/
 - name: Latus Bio
   source: https://www.dcvc.com/companies/latus-bio
   in_network: true
   is_api_provider: false
   slug: latus-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.latusbio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lumafield
   source: https://www.dcvc.com/companies/lumafield
   in_network: true
   is_api_provider: false
   slug: lumafield
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lumafield.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lunar Energy
   source: https://www.dcvc.com/companies/lunar-energy
   slug: lunar-energy
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lunarenergy.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Luxe
   source: https://www.dcvc.com/companies/luxe
   in_network: true
   is_api_provider: false
   slug: luxe
-  matched_by: name-slug
+  matched_by: domain
+  url: https://luxevalet.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mainspring Energy
   source: https://www.dcvc.com/companies/mainspring-energy
   in_network: false
   is_api_provider: false
   suggested_slug: mainspring-energy
+  x-url-candidate: https://www.mainspringenergy.com/
 - name: Medical Informatics
   source: https://www.dcvc.com/companies/medical-informatics
   in_network: true
@@ -963,7 +1180,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: metabiota
-  matched_by: name-slug
+  matched_by: domain
+  url: https://metabiota.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Metamarkets Group
   source: https://www.dcvc.com/companies/metamarkets-group
   in_network: false
@@ -975,18 +1194,23 @@ companies:
   is_api_provider: false
   slug: micrographia-bio
   matched_by: name-slug
+  x-url-candidate: https://micrographia.com
 - name: Mindrhythm
   source: https://www.dcvc.com/companies/mindrhythm
   in_network: true
   is_api_provider: false
   slug: mindrhythm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://mindrhythm.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Molecular Assemblies
   source: https://www.dcvc.com/companies/molecular-assemblies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: molecular-assemblies
-  matched_by: name-slug
+  url: https://go.trilinkbiotech.com/molecular-assemblies
+  x-url-source: network-repo (title-verified 2026-10-18)
+  x-name-collision: molecular-assemblies
+  suggested_slug: trilinkbiotech-com
 - name: Molecular Stethoscope
   source: https://www.dcvc.com/companies/molecular-stethoscope
   in_network: true
@@ -1021,13 +1245,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: mythic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mythic.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nchroma Bio
   source: https://www.dcvc.com/companies/nchroma-bio
   in_network: true
   is_api_provider: false
-  slug: nchroma-bio
-  matched_by: name-slug
+  slug: chroma-medicine
+  matched_by: domain
+  url: https://www.nchromabio.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nervana Systems
   source: https://www.dcvc.com/companies/nervana-systems
   in_network: true
@@ -1040,24 +1268,31 @@ companies:
   in_network: true
   is_api_provider: false
   matched_by: name-slug
+  x-url-candidate: https://nest.ai
 - name: Newleos Therapeutics
   source: https://www.dcvc.com/companies/newleos-therapeutics
   in_network: true
   is_api_provider: false
   slug: newleos-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://newleos.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nilo Therapeutics
   source: https://www.dcvc.com/companies/nilo-therapeutics
   in_network: true
   is_api_provider: false
   slug: nilo-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nilotx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nium
   source: https://www.dcvc.com/companies/nium
   slug: nium
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nium.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nobell Foods
   source: https://www.dcvc.com/companies/nobell-foods
   in_network: true
@@ -1069,25 +1304,31 @@ companies:
   in_network: true
   is_api_provider: false
   slug: noetik
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.noetik.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Noteworth
   source: https://www.dcvc.com/companies/noteworth
   in_network: true
   is_api_provider: false
   slug: noteworth
   matched_by: name-slug
+  x-url-candidate: https://noteworth.ai
 - name: Novome
   source: https://www.dcvc.com/companies/novome
   in_network: true
   is_api_provider: false
   slug: novome
   matched_by: name-slug
+  x-url-candidate: https://novome.ai
 - name: Nstream
   source: https://www.dcvc.com/companies/nstream
   in_network: true
   is_api_provider: false
   slug: nstream
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nstream.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ntopology
   source: https://www.dcvc.com/companies/ntopology
   in_network: true
@@ -1099,7 +1340,9 @@ companies:
   slug: nylas
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nylas.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Nyriad
   source: https://www.dcvc.com/companies/nyriad
   in_network: true
@@ -1112,18 +1355,23 @@ companies:
   is_api_provider: false
   slug: oasis-labs
   matched_by: name-slug
+  x-url-candidate: https://oasis.net/
 - name: Odyssey Ai
   source: https://www.dcvc.com/companies/odyssey-ai
   in_network: true
   is_api_provider: false
   slug: odyssey-ai
   matched_by: name-slug
+  url: https://odyssey.systems/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Oklo
   source: https://www.dcvc.com/companies/oklo
   slug: oklo
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://oklo.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Omniome
   source: https://www.dcvc.com/companies/omniome
   in_network: true
@@ -1135,24 +1383,31 @@ companies:
   in_network: true
   is_api_provider: true
   slug: one-codex
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onecodex.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Onechronos
   source: https://www.dcvc.com/companies/onechronos
   in_network: true
   is_api_provider: false
   slug: onechronos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onechronos.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Oraliva
   source: https://www.dcvc.com/companies/oraliva
   in_network: true
   is_api_provider: false
   slug: oraliva
-  matched_by: name-slug
+  matched_by: domain
+  url: https://oraliva.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Orca Bio
   source: https://www.dcvc.com/companies/orca-bio
   in_network: false
   is_api_provider: false
   suggested_slug: orca-bio
+  x-url-candidate: https://www.orca.io/
 - name: Pachyderm
   source: https://www.dcvc.com/companies/pachyderm
   in_network: true
@@ -1164,13 +1419,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pacific-fusion
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pacificfusion.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pano
   source: https://www.dcvc.com/companies/pano
   in_network: true
   is_api_provider: false
   slug: pano
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pano.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Paperspace
   source: https://www.dcvc.com/companies/paperspace
   slug: paperspace
@@ -1182,7 +1441,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: parse
-  matched_by: name-slug
+  matched_by: domain
+  url: https://parseplatform.org
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Parstream
   source: https://www.dcvc.com/companies/parstream
   in_network: true
@@ -1193,8 +1454,10 @@ companies:
   source: https://www.dcvc.com/companies/pendulum
   in_network: true
   is_api_provider: false
-  slug: pendulum
-  matched_by: name-slug
+  slug: pendulumlife
+  matched_by: domain
+  url: https://pendulumlife.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pickle Robot Company
   source: https://www.dcvc.com/companies/pickle-robot-company
   in_network: true
@@ -1218,30 +1481,38 @@ companies:
   slug: pivot-bio
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pivotbio.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Planet
   source: https://www.dcvc.com/companies/planet
   in_network: false
   is_api_provider: false
   suggested_slug: planet
+  x-url-candidate: https://www.planet.com:443/
 - name: Platfora
   source: https://www.dcvc.com/companies/platfora
   in_network: true
   is_api_provider: false
   slug: platfora
   matched_by: name-slug
+  x-url-candidate: https://www.platfora.co/
 - name: Plexium
   source: https://www.dcvc.com/companies/plexium
   in_network: true
   is_api_provider: false
   slug: plexium
-  matched_by: name-slug
+  matched_by: domain
+  url: https://plexium.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Plotlogic
   source: https://www.dcvc.com/companies/plotlogic
   in_network: true
   is_api_provider: false
   slug: plotlogic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://plotlogic.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pluribus Networks
   source: https://www.dcvc.com/companies/pluribus-networks
   in_network: true
@@ -1253,37 +1524,48 @@ companies:
   in_network: true
   is_api_provider: true
   slug: posit
-  matched_by: name-slug
+  matched_by: domain
+  url: https://posit.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Primer
   source: https://www.dcvc.com/companies/primer
   slug: primer
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://primer.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Proprio
   source: https://www.dcvc.com/companies/proprio
   in_network: true
   is_api_provider: false
   slug: proprio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.propriovision.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Proxima
   source: https://www.dcvc.com/companies/proxima
   in_network: true
   is_api_provider: false
   slug: proxima
   matched_by: name-slug
+  x-url-candidate: https://www.proxima.ai/
 - name: Pyka
   source: https://www.dcvc.com/companies/pyka
   in_network: true
   is_api_provider: false
   slug: pyka
-  matched_by: name-slug
+  matched_by: domain
+  url: https://flypyka.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Q Ctrl
   source: https://www.dcvc.com/companies/q-ctrl
   in_network: true
   is_api_provider: false
   slug: q-ctrl
-  matched_by: name-slug
+  matched_by: domain
+  url: https://q-ctrl.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Quantum Motion
   source: https://www.dcvc.com/companies/quantum-motion
   in_network: true
@@ -1301,13 +1583,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: qumulo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://qumulo.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Radiant
   source: https://www.dcvc.com/companies/radiant
   in_network: true
   is_api_provider: false
-  slug: radiant
-  matched_by: name-slug
+  slug: radiantnuclear
+  matched_by: domain
+  url: https://www.radiantnuclear.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Radionetics Oncology
   source: https://www.dcvc.com/companies/radionetics-oncology
   in_network: true
@@ -1319,29 +1605,37 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ranker
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ranker.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Reach Labs
   source: https://www.dcvc.com/companies/reach-labs
   in_network: false
   is_api_provider: false
   suggested_slug: reach-labs
+  x-url-candidate: https://www.reach.com:443/
 - name: Reality Defender
   source: https://www.dcvc.com/companies/reality-defender
   in_network: true
   is_api_provider: false
   slug: reality-defender
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.realitydefender.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Realm
   source: https://www.dcvc.com/companies/realm
   in_network: true
   is_api_provider: false
   slug: realm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://realmhome.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Recursion
   source: https://www.dcvc.com/companies/recursion
   in_network: false
   is_api_provider: false
   suggested_slug: recursion
+  x-url-candidate: https://recursion.com
 - name: Recursive Superintelligence
   source: https://www.dcvc.com/companies/recursive-superintelligence
   in_network: false
@@ -1352,7 +1646,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: recycleye
-  matched_by: name-slug
+  matched_by: domain
+  url: https://recycleye.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Relation Rx
   source: https://www.dcvc.com/companies/relation-rx
   in_network: true
@@ -1364,19 +1660,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: remedy-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.remedyrobotics.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rescale
   source: https://www.dcvc.com/companies/rescale
   in_network: true
   is_api_provider: false
   slug: rescale
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rescale.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rigetti Computing
   source: https://www.dcvc.com/companies/rigetti-computing
   in_network: true
   is_api_provider: true
-  slug: rigetti-computing
-  matched_by: name-slug
+  slug: rigetti
+  matched_by: domain
+  url: https://www.rigetti.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rill Data
   source: https://www.dcvc.com/companies/rill-data
   in_network: true
@@ -1388,7 +1690,9 @@ companies:
   slug: rocket-lab
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rocketlabcorp.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sabanto
   source: https://www.dcvc.com/companies/sabanto
   in_network: true
@@ -1400,7 +1704,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: safelyyou
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.safely-you.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Samsara Eco
   source: https://www.dcvc.com/companies/samsara-eco
   in_network: true
@@ -1412,7 +1718,9 @@ companies:
   slug: sanctuary-ai
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sanctuary.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Scuba
   source: https://www.dcvc.com/companies/scuba
   in_network: true
@@ -1425,30 +1733,39 @@ companies:
   is_api_provider: false
   slug: semantic-health
   matched_by: name-slug
+  x-url-candidate: https://semantic.io
 - name: Seneca
   source: https://www.dcvc.com/companies/seneca
   slug: seneca
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://senecajs.org/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sensemesh
   source: https://www.dcvc.com/companies/sensemesh
   in_network: true
   is_api_provider: false
   slug: sensemesh
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sensemesh.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sentinelone
   source: https://www.dcvc.com/companies/sentinelone
   slug: sentinelone
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sentinelone.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sequence Bio
   source: https://www.dcvc.com/companies/sequence-bio
   in_network: true
   is_api_provider: false
   slug: sequence-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sequencebio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Shennon Biotechnologies
   source: https://www.dcvc.com/companies/shennon-biotechnologies
   in_network: true
@@ -1460,13 +1777,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sidewinder-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sidewinderbio.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Signifyd
   source: https://www.dcvc.com/companies/signifyd
   slug: signifyd
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.signifyd.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Sigopt
   source: https://www.dcvc.com/companies/sigopt
   in_network: true
@@ -1478,61 +1799,80 @@ companies:
   slug: singlestore
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.singlestore.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Skyfire
   source: https://www.dcvc.com/companies/skyfire
   in_network: true
   is_api_provider: true
   slug: skyfire
-  matched_by: name-slug
+  matched_by: domain
+  url: https://skyfire.xyz
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Slip Robotics
   source: https://www.dcvc.com/companies/slip-robotics
   in_network: true
   is_api_provider: false
   slug: slip-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sliprobotics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Smartex
   source: https://www.dcvc.com/companies/smartex
   in_network: true
   is_api_provider: false
   slug: smartex
   matched_by: name-slug
+  x-url-candidate: https://smartex.com
 - name: Solu Therapeutics
   source: https://www.dcvc.com/companies/solu-therapeutics
   in_network: true
   is_api_provider: false
   slug: solu-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.solutherapeutics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Starkware
   source: https://www.dcvc.com/companies/starkware
   in_network: true
   is_api_provider: false
   slug: starkware
-  matched_by: name-slug
+  matched_by: domain
+  url: https://starkware.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Strateos
   source: https://www.dcvc.com/companies/strateos
   in_network: true
   is_api_provider: false
   slug: strateos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://strateos.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Streamsets
   source: https://www.dcvc.com/companies/streamsets
   in_network: true
-  is_api_provider: false
-  slug: streamsets
-  matched_by: name-slug
+  is_api_provider: true
+  slug: ibm
+  matched_by: domain
+  url: https://www.ibm.com/products/streamsets
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Strongdm
   source: https://www.dcvc.com/companies/strongdm
   in_network: true
   is_api_provider: true
   slug: strongdm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.strongdm.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Subtle Medical
   source: https://www.dcvc.com/companies/subtle-medical
   in_network: true
   is_api_provider: false
   slug: subtle-medical
-  matched_by: name-slug
+  matched_by: domain
+  url: https://subtlemedical.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Supplant
   source: https://www.dcvc.com/companies/supplant
   in_network: true
@@ -1544,25 +1884,32 @@ companies:
   in_network: true
   is_api_provider: false
   slug: swift-medical
-  matched_by: name-slug
+  matched_by: domain
+  url: https://swiftmedical.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Swiftype
   source: https://www.dcvc.com/companies/swiftype
   in_network: true
   is_api_provider: false
   slug: swiftype
-  matched_by: name-slug
+  matched_by: domain
+  url: https://swiftype.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Syntax Bio
   source: https://www.dcvc.com/companies/syntax-bio
   in_network: true
   is_api_provider: false
   slug: syntax-bio
   matched_by: name-slug
+  x-url-candidate: https://www.syntax.com/
 - name: Tala
   source: https://www.dcvc.com/companies/tala
   in_network: true
   is_api_provider: false
   slug: tala
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tala.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: The San Francisco Compute Company
   source: https://www.dcvc.com/companies/the-san-francisco-compute-company
   in_network: true
@@ -1581,66 +1928,84 @@ companies:
   is_api_provider: false
   slug: thistle-technologies
   matched_by: name-slug
+  x-url-candidate: https://www.thistle.com/
 - name: Tidal Metals
   source: https://www.dcvc.com/companies/tidal-metals
   in_network: true
   is_api_provider: false
   slug: tidal-metals
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tidalmetals.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tigergraph
   source: https://www.dcvc.com/companies/tigergraph
   slug: tigergraph
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tigergraph.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Timeful
   source: https://www.dcvc.com/companies/timeful
   in_network: true
   is_api_provider: false
   slug: timeful
   matched_by: name-slug
+  x-url-candidate: https://www.timeful.io/
 - name: Totus Medicines
   source: https://www.dcvc.com/companies/totus-medicines
   in_network: true
   is_api_provider: false
   slug: totus-medicines
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.totusmedicines.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tradeblock
   source: https://www.dcvc.com/companies/tradeblock
   in_network: true
   is_api_provider: false
   slug: tradeblock
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tradeblock.us/home/discover/offers
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Trifacta
   source: https://www.dcvc.com/companies/trifacta
   in_network: true
-  is_api_provider: false
-  slug: trifacta
-  matched_by: name-slug
+  is_api_provider: true
+  slug: alteryx
+  matched_by: domain
+  url: https://www.alteryx.com/about-us/trifacta-is-now-alteryx-designer-cloud
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Trusted Insight
   source: https://www.dcvc.com/companies/trusted-insight
   in_network: true
   is_api_provider: false
   slug: trusted-insight
   matched_by: name-slug
+  x-url-candidate: https://trustedinsight.ai
 - name: Trustpoint
   source: https://www.dcvc.com/companies/trustpoint
   in_network: true
   is_api_provider: false
   slug: trustpoint
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.trustpointgps.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Twelve
   source: https://www.dcvc.com/companies/twelve
   in_network: true
   is_api_provider: false
   slug: twelve
   matched_by: name-slug
+  x-url-candidate: https://twelve.ai
 - name: Umoja
   source: https://www.dcvc.com/companies/umoja
   in_network: true
   is_api_provider: false
   slug: umoja
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.umoja-biopharma.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Unconventional Ai
   source: https://www.dcvc.com/companies/unconventional-ai
   in_network: false
@@ -1657,7 +2022,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: unspun
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.unspun.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Upside Services
   source: https://www.dcvc.com/companies/upside-services
   in_network: true
@@ -1670,12 +2037,14 @@ companies:
   is_api_provider: false
   slug: valar-labs
   matched_by: name-slug
+  x-url-candidate: https://www.valar.com/
 - name: Vamo
   source: https://www.dcvc.com/companies/vamo
   in_network: true
   is_api_provider: false
   slug: vamo
   matched_by: name-slug
+  x-url-candidate: https://vamo.co
 - name: Vathys
   source: https://www.dcvc.com/companies/vathys
   in_network: true
@@ -1687,19 +2056,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vault12
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vault12.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Verdant Robotics
   source: https://www.dcvc.com/companies/verdant-robotics
   in_network: true
   is_api_provider: false
   slug: verdant-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.verdantrobotics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Verdigris Technologies
   source: https://www.dcvc.com/companies/verdigris-technologies
   in_network: true
   is_api_provider: true
   slug: verdigris-technologies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.verdigris.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vicarious
   source: https://www.dcvc.com/companies/vicarious
   in_network: true
@@ -1711,7 +2086,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: visolis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.visolisbio.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vium
   source: https://www.dcvc.com/companies/vium
   in_network: true
@@ -1723,25 +2100,33 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vurb
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vurb.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zap Energy
   source: https://www.dcvc.com/companies/zap-energy
   slug: zap-energy
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zapenergy.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zeno Power
   source: https://www.dcvc.com/companies/zeno-power
   in_network: true
   is_api_provider: false
   slug: zeno-power
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zenopower.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zwitterco
   source: https://www.dcvc.com/companies/zwitterco
   in_network: true
   is_api_provider: false
   slug: zwitterco
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zwitterco.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zymergen
   source: https://www.dcvc.com/companies/zymergen
   in_network: true
