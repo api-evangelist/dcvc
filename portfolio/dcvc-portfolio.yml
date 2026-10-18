@@ -3,9 +3,9 @@ method: searched
 source: https://www.dcvc.com/companies
 summary:
   portfolio_total: 292
-  in_network: 278
-  api_providers: 40
-  missing: 14
+  in_network: 283
+  api_providers: 41
+  missing: 9
   stubs_created: 0
 companies:
 - name: Abcellera
@@ -286,9 +286,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Biobot Analytics
   source: https://www.dcvc.com/companies/biobot-analytics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: biobot-analytics
+  url: https://biobot.io/
+  x-url-source: web search 2026-10-18
+  slug: biobot
+  matched_by: domain
 - name: Biophero
   source: https://www.dcvc.com/companies/biophero
   in_network: true
@@ -832,8 +835,8 @@ companies:
   is_api_provider: false
   url: https://firebase.google.com
   x-url-source: network-repo (title-verified 2026-10-18)
-  x-name-collision: firebase
   suggested_slug: google-com
+  x-name-collision: firebase
 - name: Fliptop
   source: https://www.dcvc.com/companies/fliptop
   in_network: true
@@ -1009,9 +1012,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Honeycomb Io
   source: https://www.dcvc.com/companies/honeycomb-io
-  in_network: false
-  is_api_provider: false
-  suggested_slug: honeycomb-io
+  in_network: true
+  is_api_provider: true
+  url: https://www.honeycomb.io/
+  x-url-source: web search 2026-10-18
+  slug: honeycomb
+  matched_by: domain
 - name: Horizon Quantum Computing
   source: https://www.dcvc.com/companies/horizon-quantum-computing
   in_network: true
@@ -1185,9 +1191,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Metamarkets Group
   source: https://www.dcvc.com/companies/metamarkets-group
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metamarkets-group
+  url: https://metamarkets.com/
+  x-url-source: web search 2026-10-18
+  slug: metamarkets
+  matched_by: domain
 - name: Micrographia Bio
   source: https://www.dcvc.com/companies/micrographia-bio
   in_network: true
@@ -1209,8 +1218,8 @@ companies:
   is_api_provider: false
   url: https://go.trilinkbiotech.com/molecular-assemblies
   x-url-source: network-repo (title-verified 2026-10-18)
-  x-name-collision: molecular-assemblies
   suggested_slug: trilinkbiotech-com
+  x-name-collision: molecular-assemblies
 - name: Molecular Stethoscope
   source: https://www.dcvc.com/companies/molecular-stethoscope
   in_network: true
@@ -1638,9 +1647,12 @@ companies:
   x-url-candidate: https://recursion.com
 - name: Recursive Superintelligence
   source: https://www.dcvc.com/companies/recursive-superintelligence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursive-superintelligence
+  url: https://www.recursive.com/
+  x-url-source: web search 2026-10-18
+  slug: recursive
+  matched_by: domain
 - name: Recycleye
   source: https://www.dcvc.com/companies/recycleye
   in_network: true
@@ -2008,9 +2020,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Unconventional Ai
   source: https://www.dcvc.com/companies/unconventional-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional-ai
+  url: https://unconv.ai/
+  x-url-source: web search 2026-10-18
+  slug: unconv
+  matched_by: domain
 - name: Unlearn
   source: https://www.dcvc.com/companies/unlearn
   in_network: true

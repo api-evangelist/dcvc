@@ -2,13 +2,6 @@ generated: '2026-10-18'
 method: derived
 source_vc: dcvc
 leads:
-- name: Biobot Analytics
-  url: ''
-  suggested_slug: biobot-analytics
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/biobot-analytics
-  stub_created: false
 - name: Embark
   url: ''
   suggested_slug: embark
@@ -23,26 +16,12 @@ leads:
   source_vc: dcvc
   source: https://www.dcvc.com/companies/firebase
   stub_created: false
-- name: Honeycomb Io
-  url: ''
-  suggested_slug: honeycomb-io
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/honeycomb-io
-  stub_created: false
 - name: Mainspring Energy
   url: ''
   suggested_slug: mainspring-energy
   sector: ''
   source_vc: dcvc
   source: https://www.dcvc.com/companies/mainspring-energy
-  stub_created: false
-- name: Metamarkets Group
-  url: ''
-  suggested_slug: metamarkets-group
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/metamarkets-group
   stub_created: false
 - name: Molecular Assemblies
   url: https://go.trilinkbiotech.com/molecular-assemblies
@@ -85,18 +64,4 @@ leads:
   sector: ''
   source_vc: dcvc
   source: https://www.dcvc.com/companies/recursion
-  stub_created: false
-- name: Recursive Superintelligence
-  url: ''
-  suggested_slug: recursive-superintelligence
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/recursive-superintelligence
-  stub_created: false
-- name: Unconventional Ai
-  url: ''
-  suggested_slug: unconventional-ai
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/unconventional-ai
   stub_created: false
