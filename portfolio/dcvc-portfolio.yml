@@ -3,9 +3,9 @@ method: searched
 source: https://www.dcvc.com/companies
 summary:
   portfolio_total: 292
-  in_network: 292
+  in_network: 280
   api_providers: 36
-  missing: 0
+  missing: 12
   stubs_created: 0
 companies:
 - name: Abcellera
@@ -167,7 +167,7 @@ companies:
 - name: Ascend Advanced Therapies
   source: https://www.dcvc.com/companies/ascend-advanced-therapies
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   slug: ascend-advanced-therapies
   matched_by: name-slug
 - name: Asimov
@@ -238,10 +238,9 @@ companies:
   matched_by: name-slug
 - name: Biobot Analytics
   source: https://www.dcvc.com/companies/biobot-analytics
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: biobot-analytics
-  matched_by: name-slug
+  suggested_slug: biobot-analytics
 - name: Biophero
   source: https://www.dcvc.com/companies/biophero
   in_network: true
@@ -580,10 +579,9 @@ companies:
   matched_by: name-slug
 - name: Embark
   source: https://www.dcvc.com/companies/embark
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: embark
-  matched_by: name-slug
+  suggested_slug: embark
 - name: Empirico
   source: https://www.dcvc.com/companies/empirico
   in_network: true
@@ -826,10 +824,9 @@ companies:
   matched_by: name-slug
 - name: Honeycomb Io
   source: https://www.dcvc.com/companies/honeycomb-io
-  slug: honeycomb-io
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: honeycomb-io
 - name: Horizon Quantum Computing
   source: https://www.dcvc.com/companies/horizon-quantum-computing
   in_network: true
@@ -952,10 +949,9 @@ companies:
   matched_by: name-slug
 - name: Mainspring Energy
   source: https://www.dcvc.com/companies/mainspring-energy
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mainspring-energy
-  matched_by: name-slug
+  suggested_slug: mainspring-energy
 - name: Medical Informatics
   source: https://www.dcvc.com/companies/medical-informatics
   in_network: true
@@ -970,10 +966,9 @@ companies:
   matched_by: name-slug
 - name: Metamarkets Group
   source: https://www.dcvc.com/companies/metamarkets-group
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: metamarkets
-  matched_by: name-slug
+  suggested_slug: metamarkets-group
 - name: Micrographia Bio
   source: https://www.dcvc.com/companies/micrographia-bio
   in_network: true
@@ -1012,10 +1007,9 @@ companies:
   matched_by: name-slug
 - name: Mosaic Ml
   source: https://www.dcvc.com/companies/mosaic-ml
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: mosaic-ml
-  matched_by: name-slug
+  suggested_slug: mosaic-ml
 - name: Mycoworks
   source: https://www.dcvc.com/companies/mycoworks
   in_network: true
@@ -1098,7 +1092,7 @@ companies:
   source: https://www.dcvc.com/companies/ntopology
   in_network: true
   is_api_provider: false
-  slug: ntop-com
+  slug: ntopology
   matched_by: name-slug
 - name: Nylas
   source: https://www.dcvc.com/companies/nylas
@@ -1156,10 +1150,9 @@ companies:
   matched_by: name-slug
 - name: Orca Bio
   source: https://www.dcvc.com/companies/orca-bio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: orca-bio
-  matched_by: name-slug
+  suggested_slug: orca-bio
 - name: Pachyderm
   source: https://www.dcvc.com/companies/pachyderm
   in_network: true
@@ -1228,10 +1221,9 @@ companies:
   matched_by: name-slug
 - name: Planet
   source: https://www.dcvc.com/companies/planet
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: planet
-  matched_by: name-slug
+  suggested_slug: planet
 - name: Platfora
   source: https://www.dcvc.com/companies/platfora
   in_network: true
@@ -1330,10 +1322,9 @@ companies:
   matched_by: name-slug
 - name: Reach Labs
   source: https://www.dcvc.com/companies/reach-labs
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: reach-labs
-  matched_by: name-slug
+  suggested_slug: reach-labs
 - name: Reality Defender
   source: https://www.dcvc.com/companies/reality-defender
   in_network: true
@@ -1348,16 +1339,14 @@ companies:
   matched_by: name-slug
 - name: Recursion
   source: https://www.dcvc.com/companies/recursion
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: recursion
-  matched_by: name-slug
+  suggested_slug: recursion
 - name: Recursive Superintelligence
   source: https://www.dcvc.com/companies/recursive-superintelligence
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: recursive-superintelligence
-  matched_by: name-slug
+  suggested_slug: recursive-superintelligence
 - name: Recycleye
   source: https://www.dcvc.com/companies/recycleye
   in_network: true
@@ -1493,7 +1482,7 @@ companies:
 - name: Skyfire
   source: https://www.dcvc.com/companies/skyfire
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: skyfire
   matched_by: name-slug
 - name: Slip Robotics
@@ -1535,7 +1524,7 @@ companies:
 - name: Strongdm
   source: https://www.dcvc.com/companies/strongdm
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: strongdm
   matched_by: name-slug
 - name: Subtle Medical
@@ -1654,10 +1643,9 @@ companies:
   matched_by: name-slug
 - name: Unconventional Ai
   source: https://www.dcvc.com/companies/unconventional-ai
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: unconventional-ai
-  matched_by: name-slug
+  suggested_slug: unconventional-ai
 - name: Unlearn
   source: https://www.dcvc.com/companies/unlearn
   in_network: true
