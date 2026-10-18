@@ -3,9 +3,9 @@ method: searched
 source: https://www.dcvc.com/companies
 summary:
   portfolio_total: 292
-  in_network: 283
-  api_providers: 41
-  missing: 9
+  in_network: 287
+  api_providers: 42
+  missing: 5
   stubs_created: 0
 companies:
 - name: Abcellera
@@ -711,7 +711,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: embark
-  x-url-candidate: https://embark.com
+  x-url-rejected: https://embark.com
 - name: Empirico
   source: https://www.dcvc.com/companies/empirico
   in_network: true
@@ -1171,10 +1171,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mainspring Energy
   source: https://www.dcvc.com/companies/mainspring-energy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mainspring-energy
-  x-url-candidate: https://www.mainspringenergy.com/
+  url: https://www.mainspringenergy.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: mainspringenergy
+  matched_by: domain
 - name: Medical Informatics
   source: https://www.dcvc.com/companies/medical-informatics
   in_network: true
@@ -1413,10 +1415,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Orca Bio
   source: https://www.dcvc.com/companies/orca-bio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orca-bio
-  x-url-candidate: https://www.orca.io/
+  url: https://orcabio.com/
+  x-url-source: web check 2026-10-18 (replaced)
+  slug: orcabio
+  matched_by: domain
 - name: Pachyderm
   source: https://www.dcvc.com/companies/pachyderm
   in_network: true
@@ -1495,10 +1499,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Planet
   source: https://www.dcvc.com/companies/planet
-  in_network: false
-  is_api_provider: false
-  suggested_slug: planet
-  x-url-candidate: https://www.planet.com:443/
+  in_network: true
+  is_api_provider: true
+  url: https://www.planet.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: planet-labs
+  matched_by: domain
 - name: Platfora
   source: https://www.dcvc.com/companies/platfora
   in_network: true
@@ -1622,7 +1628,8 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: reach-labs
-  x-url-candidate: https://www.reach.com:443/
+  url: https://reachlabs.co/
+  x-url-source: web check 2026-10-18 (replaced)
 - name: Reality Defender
   source: https://www.dcvc.com/companies/reality-defender
   in_network: true
@@ -1641,10 +1648,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Recursion
   source: https://www.dcvc.com/companies/recursion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursion
-  x-url-candidate: https://recursion.com
+  url: https://recursion.com
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: exscientia
+  matched_by: domain
 - name: Recursive Superintelligence
   source: https://www.dcvc.com/companies/recursive-superintelligence
   in_network: true

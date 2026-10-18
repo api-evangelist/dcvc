@@ -16,13 +16,6 @@ leads:
   source_vc: dcvc
   source: https://www.dcvc.com/companies/firebase
   stub_created: false
-- name: Mainspring Energy
-  url: ''
-  suggested_slug: mainspring-energy
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/mainspring-energy
-  stub_created: false
 - name: Molecular Assemblies
   url: https://go.trilinkbiotech.com/molecular-assemblies
   suggested_slug: trilinkbiotech-com
@@ -37,31 +30,10 @@ leads:
   source_vc: dcvc
   source: https://www.dcvc.com/companies/mosaic-ml
   stub_created: false
-- name: Orca Bio
-  url: ''
-  suggested_slug: orca-bio
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/orca-bio
-  stub_created: false
-- name: Planet
-  url: ''
-  suggested_slug: planet
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/planet
-  stub_created: false
 - name: Reach Labs
-  url: ''
+  url: https://reachlabs.co/
   suggested_slug: reach-labs
   sector: ''
   source_vc: dcvc
   source: https://www.dcvc.com/companies/reach-labs
-  stub_created: false
-- name: Recursion
-  url: ''
-  suggested_slug: recursion
-  sector: ''
-  source_vc: dcvc
-  source: https://www.dcvc.com/companies/recursion
   stub_created: false
